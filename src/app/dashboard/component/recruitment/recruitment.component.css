@@ -1,0 +1,78 @@
+.container {
+  padding: 30px 0;
+  width: 60%;
+  margin: 0 auto;
+}
+.title-first {
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  color: #65b6d6;
+  font-weight: 500;
+}
+.title-second {
+  font-size: 25px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+.text-date {
+  color: rgba(0, 0, 0, 0.54);
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 13px;
+  letter-spacing: 0.1em;
+}
+.row {
+  margin: 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 16px 0px #00000040;
+  margin-bottom: 30px;
+
+}
+.title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: 0.1em;
+  color: #1c6ea8;
+  margin-right: 35px;
+}
+hr {
+  margin: 20px 0;
+}
+.date {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.54);
+}
+.find-memeber {
+  display: flex;
+  align-items: center;
+  padding: 15px 15px 20px 15px;
+}
+.text-overview {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  color: #1c6ea8;
+  margin-bottom: 10px;
+}
+.col-sm-6 ul{
+  margin-bottom: 15px;
+  padding-left: 30px;
+}
+
+@media only screen and (max-width: 414px) {
+  .container{
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container{
+    width: 85%;
+  }
+}

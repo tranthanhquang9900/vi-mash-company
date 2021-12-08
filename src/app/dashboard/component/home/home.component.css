@@ -1,0 +1,56 @@
+.home-slide{
+  height: 580px;
+}
+img{
+  width: 100%;
+  animation-name: FadeIn;
+  animation-duration: 3s;
+  transition-timing-function: linear;
+}
+@media only screen and (max-width: 1024px) {
+  .home-slide{
+    height: 440px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .home-slide{
+    height: 330px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .home-slide{
+    height: 179px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home-slide{
+    height: 160px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .home-slide{
+    height: 155px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .home-slide{
+    height: 138px;
+  }
+}
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes FadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

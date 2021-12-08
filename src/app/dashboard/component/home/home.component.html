@@ -1,0 +1,7 @@
+<div class="home-slide">
+  <ng-container *ngFor="let image of imageArray">
+    <div  class="img" *ngIf="indexImage == image.index">
+      <img [src]="image.url" [alt]="image.alt">
+    </div>
+  </ng-container>
+</div>

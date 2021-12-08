@@ -1,0 +1,41 @@
+<footer>
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="contact">
+        <ul class="list-contact">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>4 floor, VN Da Thanh building 105 Le Loi, Da Nang City</span>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <span>99999999999</span>
+          </li>
+          <li>
+            <i class="far fa-envelope"></i>
+            <span>info@vi-mash.com</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="social-netowrk text-right">
+        <div class="img-network">
+          <img src="../assets/images/Facebook.png" alt="Facebook">
+          <img src="../assets/images/Google Plus.png" alt="Google Plus">
+        </div>
+        <div class="footer-nav">
+          <ul class="list-footer-navs">
+            <li *ngFor="let nav of listNav">
+              <a routerLink="/{{nav.path}}" >{{nav.name}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="text-end text-center">
+    Copyright © 2021 Vi-MASH Software. All Rights Reserved.
+  </div>
+</footer>

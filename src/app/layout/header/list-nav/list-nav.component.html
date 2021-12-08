@@ -1,0 +1,5 @@
+<ul class="list-navs text-center">
+  <li *ngFor="let nav of listNav">
+    <a routerLink="/{{nav.path}}" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">{{nav.name}}</a>
+  </li>
+</ul>

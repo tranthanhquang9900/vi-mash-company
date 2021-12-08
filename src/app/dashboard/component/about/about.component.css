@@ -1,0 +1,93 @@
+.about-us{
+  padding: 30px 0;
+}
+.title-first {
+  font-size: 30px;
+  letter-spacing: 0.15em;
+  color: #65b6d6;
+  font-weight: 500;
+}
+.title-second {
+  font-size: 25px;
+  line-height: 29px;
+  color: rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+.row.img-about {
+  margin-top: 50px;
+}
+.about-us img{
+  width: 30%;
+  margin-bottom: 10px;
+}
+.img-job{
+  width: 27% !important;
+}
+.text-maps{
+font-weight: 500;
+font-size: 30px;
+line-height: 30px;
+color: #1C6EA8;
+margin: 20px 0;
+}
+.location{
+  box-shadow: 0px 3px 16px 0px #00000040;
+}
+hr{
+  border-top: 2px solid #65B6D6;
+}
+.title-img{
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+color: rgba(0, 0, 0, 0.54);
+margin-bottom: 20px;
+}
+.text-img{
+font-weight: 500;
+font-size: 21px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.54);
+}
+.row{
+  margin: 0;
+}
+.maps{
+  padding: 0 15px;
+}
+.img-about img{
+  width: 100%;
+}
+.text-description{
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0.11em;
+color: rgba(0, 0, 0, 0.87);
+margin-bottom: 68px;
+}
+.col-sm-8{
+  padding-left: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .text-description{
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    margin-bottom: 36px;
+    }
+}
+@media only screen and (max-width: 768px) {
+  .text-description{
+    font-size: 17px;
+    letter-spacing: 0em;
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .container{
+    padding: 0px;
+  }
+  .col-sm-8{
+    padding-left: 15px;
+  }
+}
