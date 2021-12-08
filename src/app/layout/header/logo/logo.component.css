@@ -3,7 +3,7 @@ ul{
   list-style: none;
   padding: 0;
   margin-bottom: 0;
-  padding-left: 150px;
+  padding-left: 100px;
 }
 header ul{
   list-style: none;
@@ -58,7 +58,7 @@ header{
 }
 /* dropdown Menu */
 img{
-  width: 100%;
+  width: 80%;
 }
 
 
