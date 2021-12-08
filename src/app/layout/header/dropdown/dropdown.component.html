@@ -1,7 +1,7 @@
 <div class="header-dropdown">
   <ul class="dropdownMenu text-center">
     <li>
-      <i class="fas fa-bars" (click)="showSubMenu()" ></i>
+      <i class="fas fa-bars" (click)="showSubMenu()"(clickOutside)="outMenu()"></i>
     </li>
   </ul>
   <ul class="dropdown-navs" *ngIf="!isHiddenSubMenu" (mouseenter)="overMenu()" (mouseleave)="outMenu()">

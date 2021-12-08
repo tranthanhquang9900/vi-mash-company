@@ -15,7 +15,7 @@ export class DropdownComponent implements OnInit {
   ]
   isHiddenSubMenu=true;
   showSubMenu(){
-    this.isHiddenSubMenu = false;
+    this.isHiddenSubMenu = !this.isHiddenSubMenu;
   }
   overMenu(){
     this.isHiddenSubMenu = false;
@@ -24,8 +24,6 @@ export class DropdownComponent implements OnInit {
     this.isHiddenSubMenu = true;
   }
   constructor() { }
-
   ngOnInit(): void {
   }
-
 }
